@@ -19,7 +19,7 @@ export default function Footer() {
           {/* Brand Col */}
           <div className="md:col-span-5 space-y-4">
             <div className="flex items-center gap-2 cursor-pointer" onClick={handleScrollToTop}>
-              <MekanikLogo className="w-8 h-8" />
+              <img src="/logo.png" alt="Mekanik AI Logo" className="w-8 h-8 rounded-full object-cover" />
               <span className="font-display font-black text-base text-white tracking-wider">
                 MEKANIK <span className="text-neon-green">AI</span>
               </span>
