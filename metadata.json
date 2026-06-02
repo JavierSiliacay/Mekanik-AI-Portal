@@ -1,0 +1,6 @@
+{
+  "name": "Mekanik AI Portal",
+  "description": "Official landing page, product showcase, and APK download portal for Mekanik AI - the AI-powered automotive diagnostic assistant for Android.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

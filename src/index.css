@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-neon-green: #39FF14;
+  --color-neon-glow: rgba(57, 255, 20, 0.2);
+  --color-mechanic-dark: #050505;
+  --color-mechanic-card: rgba(255, 255, 255, 0.05);
+  --color-mechanic-gray: rgba(255, 255, 255, 0.08);
+  --color-mechanic-border: rgba(255, 255, 255, 0.1);
+}
+
+/* Custom visual effects & utilities */
+@layer utilities {
+  .glow-orb {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, rgba(57, 255, 20, 0.12) 0%, transparent 70%);
+    border-radius: 50%;
+    z-index: 0;
+    pointer-events: none;
+    filter: blur(40px);
+  }
+  .orb-1 {
+    top: -100px;
+    right: -100px;
+  }
+  .orb-2 {
+    bottom: -150px;
+    left: -150px;
+  }
+  .orb-3 {
+    top: 35%;
+    left: 10%;
+    background: radial-gradient(circle, rgba(57, 255, 20, 0.08) 0%, transparent 70%);
+  }
+  .orb-4 {
+    top: 65%;
+    right: 5%;
+    background: radial-gradient(circle, rgba(57, 255, 20, 0.07) 0%, transparent 70%);
+  }
+  .orb-5 {
+    bottom: 5%;
+    left: 20%;
+    background: radial-gradient(circle, rgba(57, 255, 20, 0.09) 0%, transparent 70%);
+  }
+
+  .neon-border {
+    position: relative;
+    border: 1px solid var(--color-mechanic-border);
+    backdrop-filter: blur(12px);
+    transition: all 0.3s ease;
+  }
+  .neon-border:hover {
+    border-color: var(--color-neon-green);
+    box-shadow: 0 0 15px var(--color-neon-glow);
+  }
+  .neon-glow-text {
+    text-shadow: 0 0 8px var(--color-neon-glow);
+  }
+  .neon-glow-btn {
+    box-shadow: 0 0 10px rgba(57, 255, 20, 0.15);
+    transition: all 0.3s ease;
+  }
+  .neon-glow-btn:hover {
+    box-shadow: 0 0 25px rgba(57, 255, 20, 0.45);
+  }
+  
+  /* Grid backgrounds for the mechanic workbench feel style with glass compatibility */
+  .grid-bg {
+    background-size: 40px 40px;
+    background-image: 
+      linear-gradient(to right, rgba(255, 255, 255, 0.015) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.015) 1px, transparent 1px);
+  }
+  .grid-bg-dense {
+    background-size: 20px 20px;
+    background-image: 
+      linear-gradient(to right, rgba(57, 255, 20, 0.015) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(57, 255, 20, 0.015) 1px, transparent 1px);
+  }
+  
+  /* Custom Scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #070708;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #1a1c20;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #39FF14;
+  }
+}
+
+/* Custom smooth scanning effects */
+@keyframes scanline {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100%); }
+}
+
+.anim-scanline {
+  animation: scanline 6s linear infinite;
+}
+
+@keyframes pulse-slow {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+
+.anim-pulse-slow {
+  animation: pulse-slow 3s ease-in-out infinite;
+}
+
