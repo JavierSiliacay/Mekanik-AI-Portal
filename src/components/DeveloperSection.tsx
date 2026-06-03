@@ -227,7 +227,7 @@ export default function DeveloperSection() {
             <div className="mt-8 pt-4 border-t border-mechanic-border/50 flex flex-col sm:flex-row items-center justify-between gap-3 text-2xs text-gray-500 font-sans">
               <div className="flex items-center gap-1.5">
                 <span className="flex h-2 w-2 rounded-full bg-neon-green" />
-                <span>Pristine open-source solution crafted for the automotive engineering community.</span>
+                <span>Thank you for supporting Mekanik AI. For the latest updates, please visit this website. If you experience any issues with the app or have any concerns, please contact the developer through this website.</span>
               </div>
               <div className="flex items-center gap-1">
                 <span>Made with</span>
