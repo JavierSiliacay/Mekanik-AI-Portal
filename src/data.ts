@@ -17,7 +17,7 @@ export const versionData: VersionInfo = {
     "Hybrid AI Routing System: Automatically falls back to local Llama 3.2 1B model when offline",
     "Multimodal dashboard scanning: Performance-tuned suspend-based Base64 encoding",
     "Throttled Jetpack Compose floating widget layout with smooth system gestures",
-    "Hugging Face Hub native model downloader for Llama, SmolLM2, and Qwen",
+    "Hub native model downloader for Llama, SmolLM2, and Qwen",
     "Stream stabilization: Word-by-word UI rendering via Kotlin Flow and EventSource",
     "Added 150+ custom automotive diagnostic guides for instant offline reference"
   ]
