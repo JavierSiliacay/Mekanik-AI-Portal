@@ -50,7 +50,7 @@ export default function DeveloperSection() {
                     <span>STATUS: ACTIVE</span>
                   </div>
                   <div className="flex items-center gap-1.5 bg-black/40 border border-mechanic-border px-2.5 py-1 rounded">
-                    <span>LOCATION: GLOBAL</span>
+                    <span>LOCATION: kilid USTP daras creek</span>
                   </div>
                 </div>
               </div>
