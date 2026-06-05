@@ -67,15 +67,6 @@ export default function Header() {
 
           {/* Header Actions */}
           <div className="hidden md:flex items-center gap-4">
-            <a
-              href="https://github.com/JavierSiliacay/mekanik-ai"
-              target="_blank"
-              referrerPolicy="no-referrer"
-              className="p-2 text-gray-400 hover:text-neon-green transition-colors duration-200"
-              title="Official GitHub Codebase"
-            >
-              <Github className="w-5 h-5" />
-            </a>
             <button
               id="header-cta-download"
               onClick={() => scrollToSection("download")}
@@ -88,14 +79,7 @@ export default function Header() {
 
           {/* Mobile Menu Trigger */}
           <div className="flex md:hidden items-center gap-2">
-            <a
-              href="https://github.com/JavierSiliacay/mekanik-ai"
-              target="_blank"
-              referrerPolicy="no-referrer"
-              className="p-2 text-gray-400 hover:text-neon-green"
-            >
-              <Github className="w-5 h-5" />
-            </a>
+
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               className="p-2 border border-mechanic-border rounded-md text-gray-400 hover:text-white hover:border-neon-green transition-colors"

@@ -52,17 +52,7 @@ export default function Footer() {
                   APK Releases (GitHub)
                 </a>
               </li>
-              <li>
-                <a
-                  href="https://github.com/JavierSiliacay/mekanik-ai"
-                  target="_blank"
-                  referrerPolicy="no-referrer"
-                  className="text-gray-400 hover:text-neon-green transition-colors flex items-center gap-1.5"
-                >
-                  <Github className="w-3 h-3 text-neon-green" />
-                  Source Codebase
-                </a>
-              </li>
+
               <li>
                 <a
                   href="https://www.facebook.com/siliacayjavier"
@@ -102,7 +92,7 @@ export default function Footer() {
             © {currentYear} Mekanik AI. All diagnostic procedures, code translations, and tools are provided under Apache-2.0 licenses.
           </div>
           <div>
-            Designed by <span className="text-white">Javier Siliacay</span>
+            Designed and Developed by <span className="text-white">Javier Siliacay</span>
           </div>
         </div>
       </div>

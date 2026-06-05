@@ -83,7 +83,7 @@ export default function DeveloperSection() {
                       
                       <div className="space-y-2 mt-auto">
                         <a 
-                          href="https://github.com/JavierSiliacay/mekanik-ai"
+                          href="https://mekanikai.vercel.app/"
                           target="_blank"
                           referrerPolicy="no-referrer"
                           className="flex items-center justify-between text-[10px] font-mono p-1.5 bg-black/60 border border-mechanic-border/30 rounded text-neon-green hover:border-neon-green/40 hover:bg-black/90 transition-all font-bold"
@@ -92,7 +92,7 @@ export default function DeveloperSection() {
                           <ExternalLink className="w-2.5 h-2.5 text-gray-500" />
                         </a>
                         <a 
-                          href="https://github.com/JavierSiliacay/SadBai-AI"
+                          href="https://sadbai-ai.onrender.com/"
                           target="_blank"
                           referrerPolicy="no-referrer"
                           className="flex items-center justify-between text-[10px] font-mono p-1.5 bg-black/60 border border-mechanic-border/30 rounded text-gray-300 hover:border-neon-green/40 hover:bg-black/90 transition-all font-bold"
@@ -101,7 +101,7 @@ export default function DeveloperSection() {
                           <ExternalLink className="w-2.5 h-2.5 text-gray-500" />
                         </a>
                         <a 
-                          href="https://github.com/JavierSiliacay/Circuito-AI"
+                          href="https://circuitoai.vercel.app/"
                           target="_blank"
                           referrerPolicy="no-referrer"
                           className="flex items-center justify-between text-[10px] font-mono p-1.5 bg-black/60 border border-mechanic-border/30 rounded text-gray-300 hover:border-neon-green/40 hover:bg-black/90 transition-all font-bold"
@@ -126,7 +126,7 @@ export default function DeveloperSection() {
                       
                       <div className="space-y-2 mt-auto">
                         <a 
-                          href="https://github.com/JavierSiliacay/autoworx-system"
+                          href="https://autoworxcagayan.com/"
                           target="_blank"
                           referrerPolicy="no-referrer"
                           className="flex items-center justify-between text-[10px] font-mono p-1.5 bg-black/60 border border-mechanic-border/30 rounded text-gray-300 hover:border-neon-green/40 hover:bg-black/90 transition-all font-bold"
@@ -135,7 +135,7 @@ export default function DeveloperSection() {
                           <ExternalLink className="w-2.5 h-2.5 text-gray-500" />
                         </a>
                         <a 
-                          href="https://github.com/JavierSiliacay/TaraFix"
+                          href="https://tarafix.vercel.app/"
                           target="_blank"
                           referrerPolicy="no-referrer"
                           className="flex items-center justify-between text-[10px] font-mono p-1.5 bg-black/60 border border-mechanic-border/30 rounded text-gray-300 hover:border-neon-green/40 hover:bg-black/90 transition-all font-bold"
@@ -144,7 +144,7 @@ export default function DeveloperSection() {
                           <ExternalLink className="w-2.5 h-2.5 text-gray-500" />
                         </a>
                         <a 
-                          href="https://github.com/JavierSiliacay/javiersiliacay-portfolio"
+                          href="https://javiersiliacay.vercel.app/"
                           target="_blank"
                           referrerPolicy="no-referrer"
                           className="flex items-center justify-between text-[10px] font-mono p-1.5 bg-black/60 border border-mechanic-border/30 rounded text-gray-300 hover:border-neon-green/40 hover:bg-black/90 transition-all font-bold"
