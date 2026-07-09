@@ -9,7 +9,7 @@ import {
 
 export const versionData: VersionInfo = {
   version: "v1.0.1.",
-  size: "30.5 MB",
+  size: "32.25 MB",
   date: "June 2026",
   compatibility: "Android 8.0 (Oreo, API 26) or higher",
   apkName: "Mekanik-AI.apk",
