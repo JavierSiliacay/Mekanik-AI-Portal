@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 /**
  * @license
  * SPDX-License-Identifier: Apache-2.0
@@ -19,6 +20,18 @@ import FaqSection from "./components/FaqSection";
 import Footer from "./components/Footer";
 
 export default function App() {
+  useEffect(() => {
+    if (window.location.hash) {
+      const id = window.location.hash.replace("#", "");
+      const timer = setTimeout(() => {
+        const elem = document.getElementById(id);
+        if (elem) {
+          elem.scrollIntoView({ behavior: "smooth" });
+        }
+      }, 150);
+      return () => clearTimeout(timer);
+    }
+  }, []);
   return (
     <div className="bg-[#050505] text-white min-h-screen selection:bg-neon-green selection:text-black relative overflow-hidden">
       {/* Immersive Glow Orbs for Frosted Glass Backdrop */}
