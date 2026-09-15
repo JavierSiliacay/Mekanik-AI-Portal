@@ -38,7 +38,7 @@ export default function Hero() {
             </h1>
 
             <p className="font-sans text-sm sm:text-base text-gray-300 leading-relaxed max-w-2xl">
-              Your AI-powered automotive diagnostic assistant designed to help vehicle owners and mechanics diagnose problems, analyze automotive images, understand fault symptoms, and make informed maintenance decisions.
+              Mekanik AI (MekanikAI) is an AI-powered automotive diagnostic assistant designed to help vehicle owners and mechanics diagnose problems, analyze automotive images, understand fault symptoms, and make informed maintenance decisions.
             </p>
 
             {/* CTAs */}

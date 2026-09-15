@@ -26,7 +26,7 @@ export default function Footer() {
             </div>
             
             <p className="font-sans text-xs text-gray-400 leading-relaxed max-w-sm">
-              Symmetric offline-capable automotive diagnostic companion for Android devices. Engineered to process complex OBD trouble codes, dashboard alerts, and fault telemetry privately on-device.
+              Mekanik AI (MekanikAI) is a symmetric offline-capable automotive diagnostic companion for Android devices. Engineered to process complex OBD trouble codes, dashboard alerts, and fault telemetry privately on-device.
             </p>
 
             <div className="flex items-center gap-3 pt-2 font-mono text-[10px] text-gray-500">
