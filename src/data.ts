@@ -33,7 +33,7 @@ export const featuresData: FeatureItem[] = [
     details: [
       "Online mode: Streams answers from high-capacity Google Gemma nodes",
       "Offline mode: Seamlessly boots lightweight models (Llama 3.2 1B, SmolLM2, Qwen 2.5) locally on-device",
-      "MediaPipe LLM integration: Fully hardware-accelerated on modern mobile chipsets"
+      "On-Device LLM integration: Fully hardware-accelerated on modern mobile chipsets"
     ]
   },
   {
@@ -89,10 +89,10 @@ export const featuresData: FeatureItem[] = [
     icon: "DownloadCloud",
     title: "In-App Model Management",
     badge: "Local Freedom",
-    description: "Download lightweight AI models directly inside the application from Hugging Face.",
+    description: "Download lightweight AI models directly inside the application repository.",
     details: [
       "Supports Llama 3.2 1B, SmolLM2 1.7B, and Qwen 2.5 1.5B binaries",
-      "Automated extraction, verification, and loading into local MediaPipe engine",
+      "Automated extraction, verification, and loading into local AI runtime engine",
       "100% cloudless, private, and zero latency diagnostic responses"
     ]
   }
@@ -133,7 +133,7 @@ export const comparisonData: ComparisonRow[] = [
   },
   {
     feature: "Offline AI Inference",
-    mekanik: { supported: true, text: "Runs on-device via Llama 3.2 1B (MediaPipe). Zero data connection required for shop use." },
+    mekanik: { supported: true, text: "Runs on-device via Llama 3.2 1B (local runtime). Zero data connection required for shop use." },
     generic: { supported: false, text: "Requires active cellular or Wi-Fi connection. Fails in remote areas or inside metal-decked repair shops." }
   },
   {
@@ -182,7 +182,7 @@ export const faqData: FAQItem[] = [
   },
   {
     question: "How does the Offline AI mode work?",
-    answer: "Through the 'Offline Model Management' configuration screen, you can download compact LLM binaries like Llama 3.2 1B, SmolLM2, or Qwen directly. Once compiled, Mekanik AI runs these models completely locally using Google's MediaPipe GPU/CPU compiler — demanding no cellular service or internet access."
+    answer: "Through the 'Offline Model Management' configuration screen, you can download compact LLM binaries like Llama 3.2 1B, SmolLM2, or Qwen directly. Once compiled, Mekanik AI runs these models completely locally using an optimized on-device GPU/CPU inference engine — demanding no cellular service or internet access."
   },
   {
     question: "Do I need Google Play services to install the app?",

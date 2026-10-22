@@ -109,7 +109,7 @@ export default function InteractiveWidget() {
   // Adjust model string
   useEffect(() => {
     if (isOfflineMode) {
-      setCurrentModel("Llama 3.2 1B (MediaPipe local)");
+      setCurrentModel("Llama 3.2 1B (On-Device local)");
     } else {
       setCurrentModel("Google Gemma Hub (Cloud API)");
     }

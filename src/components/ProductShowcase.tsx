@@ -76,8 +76,8 @@ export default function ProductShowcase() {
       label: "Offline Companion",
       icon: DownloadCloud,
       title: "In-App Private Model Store",
-      subtitle: "Automatic binary fetch from Hugging Face Hub",
-      summary: "Boot offline mode instantly. Our download wizard lets you pick weights from Hugging Face and saves them to local MediaPipe app storage safely.",
+      subtitle: "Automatic binary fetch from verified model hub",
+      summary: "Boot offline mode instantly. Our download wizard lets you pick weights and saves them to local app storage safely.",
       bulletPoints: [
         "Offline choice: Llama 3.2 1B (Easiest), SmolLM2 1.7B, or Qwen 2.5 1.5B (Expert)",
         "Automated MD5 checksum check prevents corrupted weights downloads",
@@ -112,7 +112,7 @@ export default function ProductShowcase() {
             <div className="bg-black/15 border border-mechanic-border/50 rounded p-2 flex items-center justify-between">
               <div>
                 <h5 className="text-[11px] font-display text-gray-300 leading-none">SmolLM2 1.7B (Instruct)</h5>
-                <span className="text-[8px] font-mono text-gray-500 mt-1 block">Size: 1.2 GB • Hugging Face Link</span>
+                <span className="text-[8px] font-mono text-gray-500 mt-1 block">Size: 1.2 GB • Direct Binary</span>
               </div>
               <button className="text-[9px] text-neon-green hover:underline font-mono border border-neon-green/20 px-1.5 py-0.5 rounded bg-neon-green/5">
                 DOWNLOAD
