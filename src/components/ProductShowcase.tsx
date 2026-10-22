@@ -39,7 +39,7 @@ export default function ProductShowcase() {
               <span className="h-1.5 w-1.5 rounded-full bg-neon-green" />
               <span>MEKANIK AI v1.2</span>
             </div>
-            <span className="text-neon-green font-mono text-[9px] bg-neon-green/10 px-1 py-0.5 rounded">Gemma 2B</span>
+            <span className="text-neon-green font-mono text-[9px] bg-neon-green/10 px-1 py-0.5 rounded">Qwen 27B</span>
           </div>
           
           {/* Thread Body */}

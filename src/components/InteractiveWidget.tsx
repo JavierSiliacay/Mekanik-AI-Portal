@@ -16,7 +16,7 @@ export default function InteractiveWidget() {
   const [isOfflineMode, setIsOfflineMode] = useState(false);
   const [isFloatingWidget, setIsFloatingWidget] = useState(false);
   const [isAnalyzing, setIsAnalyzing] = useState(false);
-  const [currentModel, setCurrentModel] = useState<string>("Google Gemma Hub");
+  const [currentModel, setCurrentModel] = useState<string>("Qwen 3.8 27B Hub");
   const [isAutoSimulate, setIsAutoSimulate] = useState(true);
   const [autoCaseIdx, setAutoCaseIdx] = useState(0);
 
@@ -111,7 +111,7 @@ export default function InteractiveWidget() {
     if (isOfflineMode) {
       setCurrentModel("Llama 3.2 1B (On-Device local)");
     } else {
-      setCurrentModel("Google Gemma Hub (Cloud API)");
+      setCurrentModel("Qwen 3.8 27B (Cloud API)");
     }
   }, [isOfflineMode]);
 

@@ -31,7 +31,7 @@ export const featuresData: FeatureItem[] = [
     badge: "Dual Engine",
     description: "Operates online via cloud connections or entirely offline without internet.",
     details: [
-      "Online mode: Streams answers from high-capacity Google Gemma nodes",
+      "Online mode: Streams answers from high-capacity Qwen/Qwen3.8-27B nodes",
       "Offline mode: Seamlessly boots lightweight models (Llama 3.2 1B, SmolLM2, Qwen 2.5) locally on-device",
       "On-Device LLM integration: Fully hardware-accelerated on modern mobile chipsets"
     ]
