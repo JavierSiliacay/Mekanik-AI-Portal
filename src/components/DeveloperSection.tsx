@@ -101,12 +101,12 @@ export default function DeveloperSection() {
                           <ExternalLink className="w-2.5 h-2.5 text-gray-500" />
                         </a>
                         <a 
-                          href="https://circuitoai.vercel.app/"
+                          href="https://pangly.site"
                           target="_blank"
                           referrerPolicy="no-referrer"
                           className="flex items-center justify-between text-[10px] font-mono p-1.5 bg-black/60 border border-mechanic-border/30 rounded text-gray-300 hover:border-neon-green/40 hover:bg-black/90 transition-all font-bold"
                         >
-                          <span>📁 Circuito-AI</span>
+                          <span>📁 Pangly</span>
                           <ExternalLink className="w-2.5 h-2.5 text-gray-500" />
                         </a>
                       </div>

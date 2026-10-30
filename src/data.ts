@@ -166,7 +166,7 @@ export const developerBio = {
   experience: [
     "Creator of Mekanik AI — Advanced Android Diagnostic Engine with Local Inference",
     "Architect of AutoWorx System & Inventory — Elite workshop and repair orchestration solutions",
-    "Developer of SadBai-AI, TaraFix, and Circuito-AI — Integrated web services & on-device intelligence",
+    "Developer of SadBai-AI, TaraFix, and Pangly — Integrated web services & on-device intelligence",
     "IoT Systems Developer — Specialized in embedded ESP32, DS18b20, OLED gauges & signal controllers"
   ],
   socials: {
